@@ -1,100 +1,86 @@
-# 🧠 MindSpace - AI Mental Health Coach
+<div align="center">
+  <img src="public/logo.png" alt="MindSpace Logo" width="120" />
+  <h1>MindSpace</h1>
+  <h3>Your AI-Powered Mental Health Companion</h3>
+  <p>
+    <b>Compassionate • Intelligent • Private</b>
+  </p>
 
-![MindSpace Demo](public/demo-screenshot.png)
+  <p>
+    <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js"></a>
+    <a href="https://typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript" alt="TypeScript"></a>
+    <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind"></a>
+    <a href="https://openai.com"><img src="https://img.shields.io/badge/OpenAI-GPT--4-412991?style=for-the-badge&logo=openai" alt="OpenAI"></a>
+  </p>
+</div>
 
-> **A compassionate, AI-powered virtual psychologist designed to provide immediate emotional support and personalized mental health guidance.**
+<br />
 
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?style=for-the-badge&logo=openai)](https://openai.com/)
-[![Groq](https://img.shields.io/badge/Groq-Llama_3-orange?style=for-the-badge)](https://groq.com/)
+<div align="center">
+  <img src="public/demo-screenshot.png" alt="MindSpace Interface" width="800" style="border-radius: 10px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);" />
+</div>
+
+<br />
 
 ## 🌟 Overview
 
-**MindSpace** is an innovative web application that leverages advanced Large Language Models (LLMs) to act as a virtual mental health companion. It offers a safe, judgment-free space for users to express their feelings, receive empathetic feedback, and track their emotional well-being over time.
+**MindSpace** represents the next evolution in digital mental wellness. By bridging the gap between advanced generative AI and psychological principles, MindSpace offers a **judgment-free, 24/7 sanctuary** for your thoughts.
 
-Unlike standard chatbots, MindSpace is engineered with a specific **psychological persona** that practices active listening, reformulates user inputs for validation, and suggests concrete, actionable micro-steps for improvement.
-
-## ✨ Key Features
-
-- **🤖 Empathetic AI Persona**: A carefully prompted AI that behaves like a professional psychologist, offering validation, open-ended questions, and motivational summaries.
-- **💬 Contextual Chat Interface**: A beautiful, modern chat UI that supports natural conversation flows.
-- **📊 Real-Time Emotional Analysis**: Automatically detects emotions (Joy, Anxiety, Motivation, Stress) from user messages and visualizes them in real-time charts.
-- **🛡️ Privacy-First Design**: All conversations are confidential. The "Demo Mode" ensures functionality even without an API key, using a sophisticated local fallback engine.
-- **⚡ Dual AI Engine**: Supports both **OpenAI (GPT-4)** for premium reasoning and **Groq (Llama 3)** for ultra-fast, cost-effective responses.
-- **🧘 Stress Management Tools**: Integrated library of quick anti-stress techniques (breathing exercises, grounding, etc.).
-
-## 🛠️ Tech Stack
-
-- **Frontend**: Next.js 14 (App Router), React, TypeScript
-- **Styling**: Tailwind CSS, Shadcn/UI, Lucide Icons
-- **Visualization**: Recharts for real-time data plotting
-- **AI Integration**: OpenAI SDK, Groq SDK
-- **Backend**: Next.js API Routes (Serverless)
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sanadzhioua/MindSpace.git
-   cd MindSpace
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables**
-   Create a `.env.local` file in the root directory:
-   ```env
-   # Option 1: Use OpenAI (Recommended for best quality)
-   OPENAI_API_KEY=sk-your-openai-key-here
-
-   # Option 2: Use Groq (Free, Fast Llama 3 models)
-   GROQ_API_KEY=gsk-your-groq-key-here
-   ```
-
-4. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000) to start chatting with MindSpace.
-
-## 💡 How It Works
-
-1. **User Input**: The user types a message expressing their current state (e.g., "I feel overwhelmed by work").
-2. **AI Processing**: The backend analyzes the text to extract:
-   - **Emotion**: Identifies the core feeling (e.g., Stress).
-   - **Intensity**: Scores the emotion on a scale of 1-10.
-   - **Response**: Generates a structured JSON containing a reformulation, suggested actions, and a supportive message.
-3. **Visualization**: The frontend updates the "Emotional Journey" chart instantly based on the analysis.
-4. **Feedback Loop**: The AI asks a follow-up question to encourage deeper reflection.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+It's not just a chatbot; it's a **virtual psychologist** engineered with specific persona constraints to listen, validate, and guide you through stress, anxiety, or low motivation using evidence-based cognitive frameworks.
 
 ---
 
-*Disclaimer: MindSpace is an AI tool for emotional support and self-reflection. It is not a substitute for professional medical advice, diagnosis, or treatment. In case of emergency, please contact local emergency services.*
+## ✨ Why MindSpace?
+
+### 🧠 Deeply Empathetic AI
+Unlike generic assistants, MindSpace is fine-tuned to mirror the active listening skills of a therapist. It reformulates your feelings to ensure you feel heard before helping you explore solutions.
+
+### 📊 Real-Time Emotional Intelligence
+As you type, our advanced sentiment analysis engine decodes detailed emotional states—tracking **Joy, Anxiety, Stress, and Motivation** in real-time. Watch your emotional journey unfold on beautiful, dynamic charts.
+
+### 🛡️ Privacy-First Architecture
+Your mental health is personal. MindSpace is built with a **confidentiality-first** mindset. We also offer a **Local Fallback Mode**, ensuring the app remains functional and private even without internet connectivity.
+
+### ⚡ Hybrid AI Engine
+Leverage the best of both worlds:
+*   **OpenAI GPT-4:** For deep, nuanced, and complex reasoning.
+*   **Groq Llama 3:** For lightning-fast, near-instant supportive responses.
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+*   Node.js 18+
+
+### Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/sanadzhioua/MindSpace.git
+cd MindSpace
+
+# 2. Install dependencies
+npm install
+
+# 3. Configure API Keys (.env.local)
+# OPENAI_API_KEY=sk-...
+# GROQ_API_KEY=gsk-...
+
+# 4. Launch
+npm run dev
+```
+
+Visit `http://localhost:3000` to begin your journey.
+
+---
+
+## 🤝 Contributing
+
+We believe in open-source mental health innovation.
+1.  Fork the repo
+2.  Create your feature branch
+3.  Submit a Pull Request
+
+## 📄 License
+MIT License. Built with ❤️ for better mental health.
